@@ -33,7 +33,7 @@ public class ContactCreationTest {
   }
 
   @Test
-    public void ContactCreationTest() {
+    public void testContactCreation() {
 
     openForm();
     fillContactData(new ContactData("John", "Snow", "Winterfall", "john.snow@winterfall.wi", "+19113456789"));
